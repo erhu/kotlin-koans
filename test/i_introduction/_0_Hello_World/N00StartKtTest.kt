@@ -4,7 +4,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class N00StartKtTest {
-    @Test fun testOk() {
+    @Test
+    fun testOk() {
         assertEquals("OK", task0())
     }
 }

@@ -5,7 +5,8 @@ import org.junit.Test
 
 
 class N06DataClassesKtTest {
-    @Test fun testListOfPeople() {
+    @Test
+    fun testListOfPeople() {
         assertEquals("[Person(name=Alice, age=29), Person(name=Bob, age=31)]", task6().toString())
     }
 }

@@ -4,7 +4,8 @@ import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class N12ExtensionsOnCollectionsKtTest {
-    @Test fun testSort() {
+    @Test
+    fun testSort() {
         assertEquals(listOf(5, 2, 1), task12())
     }
 }
